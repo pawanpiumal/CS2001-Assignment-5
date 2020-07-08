@@ -1,0 +1,105 @@
+header{
+    display:inline-flex;
+    width: 100%;
+    color:white;
+    background-color: rgba(18,18,18,0.65);
+    box-shadow:  0 0 10px black;
+    user-select: none;
+}
+
+header .title{
+    width:75%;
+    text-align: center;
+    color:rgba(255,255,255,0.8);
+    font-size:2.5em;
+}
+
+header  .icon {
+    height:100px;
+    width:150px;
+}
+
+.container .description{
+    color:white;
+    background-color: rgba(18,18,18,0.65);
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.container .profile table{
+    color:white;
+}
+
+.container .profile{
+    width: 60%;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(18,18,18,0.65);
+    padding: 20px;
+}
+
+.container .profile table tr td:nth-child(2){
+    color:rgba(255,255,255,0.8);
+}
+
+
+figure figcaption{
+    text-align: center;
+    color:white;
+    margin-top: 5px;
+}
+
+figure{
+    margin:16px 35px;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    box-shadow: 0 0 10px black;
+    margin: 5px;
+}
+.col img:hover{
+    cursor: zoom-in;
+    transform: scale(1.3);
+}
+
+#video a{
+    text-decoration: none;
+    color:rgba(255,255,255,0.8);
+}
+
+.container #video{
+    display: flex;
+
+}
+#video .video-menu{
+    box-shadow: 0 0 10px black;
+    padding:10px;
+    margin-right:15px;
+    max-width:564px;
+    user-select: none;
+}
+#video ul{
+    list-style-type: none;
+    padding:0 40px 0 40px;
+}
+
+#video ul li{
+    padding:15px;
+}
+#video ul li:hover{
+    background-color: black;
+    font-weight: 600;
+}
+
+#video .video-frame{
+    width:55%;
+}
+
+#video .video-frame iframe{
+    width:720px;
+    height:405px;
+}
